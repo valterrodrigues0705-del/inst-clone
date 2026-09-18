@@ -1,4 +1,12 @@
-
+#logoinst{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+    margin-bottom: -70px;
+    background-size: 200px;
+    background-image: url('logo-instagram-4096.png');
+}
 #conteudo{
     width: 900px;
     height: 900px;
@@ -25,7 +33,7 @@
 #fotodeperfil{
     width: 300px;
     height: 300px;
-    background-color: lightgreen;
+    background: linear-gradient(90deg, #2a001b 0.000%, #78130c 16.667%, #ce480e 33.333%, #ff8d22 50.000%, #ffd543 66.667%, #ffff69 83.333%, #ffff8d 100.000%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,12 +45,12 @@ img{
 #textodeperfil{
     width: 600px;
     height: 300px;
-    background-color: hotpink;
+    background: linear-gradient(45deg, #4159d0 0.000%, #c84fc0 50.000%, #ffcd70 100.000%);
     box-sizing: border-box;
     padding: 20px 70px;
 }
 #usarname{
-    font-style: italic;
+    font-style: initial;
     font-weight: 100;
 }
 .seguidores{
@@ -53,29 +61,73 @@ img{
 #bio{
     padding-left: 15px;
 }
-#threads-icone{
-   padding-left: 25px;
+#threads{
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 5px;
 }
+#threads-icone{
+    margin-left: -1px;
+    margin-bottom: -15px;
+    margin-top: -15px;
+    background-color: rgb(160, 162, 161, 0.5);
+    border-radius: 15px;
+    padding: 3px;
+    img{
+    position: relative;
+    top: 3px;
+    left: 3px;}
+}
+
 #texto-bio{
     padding-left: 20px;
     display: flex;
     flex-direction: column
 }
+#texto-bio{
+    list-style-type: none;
+    display: flex;
+    margin-left: -15px;
+    margin-top: 1px;
+}
+.lista{
+    font-size: 15px;
+}
+#icone-link{
+    height: 20px;
+    width: 20px;
+    background-size: 20px;
+    background-image: url('icone-link.png');
+}
+
 #bio-link{
     display: flex;
-    margin-left: 35px;
-    margin-top: -20px;
+    margin-left: 5.3px;
+    margin-top: -18px;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
+
 #destaques{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: conic-gradient(from 210deg, #c5bbb8 0.000deg, #c5bbb8 24.000deg, #b8b5b8 calc(24.000deg + 0.1deg), #b8b5b8 48.000deg, #a9afb7 calc(48.000deg + 0.1deg), #a9afb7 72.000deg, #9aa8b5 calc(72.000deg + 0.1deg), #9aa8b5 96.000deg, #8ba1b3 calc(96.000deg + 0.1deg), #8ba1b3 120.000deg, #7d98af calc(120.000deg + 0.1deg), #7d98af 144.000deg, #7090ab calc(144.000deg + 0.1deg), #7090ab 168.000deg, #6587a6 calc(168.000deg + 0.1deg), #6587a6 192.000deg, #5c7ea1 calc(192.000deg + 0.1deg), #5c7ea1 216.000deg, #55759b calc(216.000deg + 0.1deg), #55759b 240.000deg, #516c94 calc(240.000deg + 0.1deg), #516c94 264.000deg, #4f638d calc(264.000deg + 0.1deg), #4f638d 288.000deg, #505a85 calc(288.000deg + 0.1deg), #505a85 312.000deg, #54537d calc(312.000deg + 0.1deg), #54537d 336.000deg, #5b4b74 calc(336.000deg + 0.1deg) 360.000deg);
 }
 .dest{
     padding: 25px;
 }
 .fotos{
     border-radius: 0%;
+    margin-left: 1.5px;
 }
+#feed{
+    background: linear-gradient(90deg, #000004 0.000%, #000c4f 16.667%, #5b8183 33.333%, #e8cd7e 50.000%, #ffb244 66.667%, #9e4700 83.333%, #000000 100.000%);
+
+}
+
+
 
 
