@@ -33,7 +33,6 @@
 #conteudo{
     width: 900px;
     height: 900px;
-    background-color: blanchedalmond;
     margin: 0 auto;
 }
 .section{
@@ -41,41 +40,34 @@
 }
 #cabecalho{
     height: 300px;
-    background-color: lavender;
     display: flex;
-}
-#destaques{
-    height: 200px;
-    display: flex;
-    background-color: moccasin;
-}
-#feed{
-    display: flex;
-    background-color: #0095f6 ;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 1px;
-    column-gap: 10px;
-    row-gap: 10px;
 }
 #fotodeperfil{
     width: 300px;
     height: 300px;
-    background: linear-gradient(90deg, #2a001b 0.000%, #78130c 16.667%, #ce480e 33.333%, #ff8d22 50.000%, #ffd543 66.667%, #ffff69 83.333%, #ffff8d 100.000%);
     display: flex;
     justify-content: center;
     align-items: center;
+    img{
+        width: 200px;
+        height: 200px;
+    }
 }
 
 img{
     border-radius: 50%;
+    object-fit: cover;
 }
 #textodeperfil{
     width: 600px;
     height: 300px;
-    background: linear-gradient(45deg, #4159d0 0.000%, #c84fc0 50.000%, #ffcd70 100.000%);
     box-sizing: border-box;
     padding: 20px 70px;
+    h2{
+    font-family: "UnifrakturMaguntia",cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
 }
 #usarname{
     font-style: initial;
@@ -84,6 +76,7 @@ img{
 .seguidores{
     margin-right: 45px;
     padding-left: 5px;
+    font-weight: 300;
 }
 
 #bio{
@@ -98,7 +91,6 @@ img{
     margin-left: -1px;
     margin-bottom: -15px;
     margin-top: -15px;
-    background-color: rgb(160, 162, 161, 0.5);
     border-radius: 15px;
     padding: 3px;
     img{
@@ -139,21 +131,49 @@ img{
     font-weight: 400;
 }
 
+#destaques{
+    height: 200px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
 .destaque{
     height: 200px;
     width: 150px;
-    background-color: lemonchiffon;
     padding: 33px 25px;
     box-sizing: border-box;
     text-align: center;
     font-weight: 600;
+}
 
+#feed{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1220px;
+    gap: 0;
+    img{
+        height: 400px;
+        width: 290px;
+    }
 }
 .post{
     height: 400px;
-    width: 290px;
     border-radius: 0%;
 }
+
+*{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
 
 
 
